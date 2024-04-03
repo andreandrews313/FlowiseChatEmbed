@@ -63,7 +63,6 @@ export const Popup = (props: PopupProps) => {
   const openBot = () => {
     setIsBotOpened(true);
     popupProps.onOpen?.();
-    document.body.style.overflow = 'hidden';
   };
 
   const closeBot = () => {
