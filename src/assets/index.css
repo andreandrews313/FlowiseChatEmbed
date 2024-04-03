@@ -239,8 +239,8 @@ textarea {
 
 .chatbot-chat-view {
   max-width: 800px;
-  scroll-behavior: auto !important;
-  overflow-y: auto !important;
+  scroll-behavior: auto;
+  overflow-y: auto;
 }
 
 .ping span {
